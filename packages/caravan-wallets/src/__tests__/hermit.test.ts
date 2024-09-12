@@ -1,12 +1,8 @@
-/**
- * @jest-environment jsdom
- */
-
-import { PENDING, INFO } from "./interaction";
+import { PENDING, INFO } from "../interaction";
 import {
   HermitExportExtendedPublicKey,
   HermitSignMultisigTransaction,
-} from "./hermit";
+} from "../hermit";
 
 function itHasACommandMessage(interaction, command) {
   const message = interaction.messageFor({
@@ -19,6 +15,8 @@ function itHasACommandMessage(interaction, command) {
     expect(message.command).toEqual(command);
   });
 }
+
+import { describe, it, expect } from "vitest";
 
 describe("HermitExportExtendedPublicKey", () => {
   const bip32Path = "m/45'/0'/0'";
