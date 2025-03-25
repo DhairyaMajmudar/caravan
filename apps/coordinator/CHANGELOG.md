@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.6.0
+
+### Minor Changes
+
+- [#168](https://github.com/caravan-bitcoin/caravan/pull/168) [`accc093`](https://github.com/caravan-bitcoin/caravan/commit/accc0937159691e7be5b0b68c389ee6594423aa4) Thanks [@Legend101Zz](https://github.com/Legend101Zz)! - Add a new Transactions tab to the wallet interface that provides users with a detailed view of their transaction history.
+
+### Patch Changes
+
+- Updated dependencies [[`accc093`](https://github.com/caravan-bitcoin/caravan/commit/accc0937159691e7be5b0b68c389ee6594423aa4)]:
+  - @caravan/clients@0.3.2
+
 ## 1.5.3
 
 ### Patch Changes
